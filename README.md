@@ -1,43 +1,32 @@
-## 🛒 AI Customer Support Agent with Memory
+AI Customer Support Agent 🛒 (Streamlit + OpenAI)
 
-### 🎓 FREE Step-by-Step Tutorial 
-**👉 [Click here to follow our complete step-by-step tutorial](https://www.theunwindai.com/p/build-an-ai-customer-support-agent-with-memory) and learn how to build this from scratch with detailed code walkthroughs, explanations, and best practices.**
+A simple AI-powered customer support chatbot built using **Streamlit** and **OpenAI API**.  
+It simulates customer support for an e-commerce electronics store (TechGadgets.com).
 
-This Streamlit app implements an AI-powered customer support agent for synthetic data generated using GPT-4o. The agent uses OpenAI's GPT-4o model and maintains a memory of past interactions using the Mem0 library with Qdrant as the vector store.
+> ✅ Memory feature is currently disabled to avoid local database setup (Qdrant).  
+> The bot still works perfectly for chat support.
 
-### Features
+---
 
-- Chat interface for interacting with the AI customer support agent
-- Persistent memory of customer interactions and profiles
-- Synthetic data generation for testing and demonstration
-- Utilizes OpenAI's GPT-4o model for intelligent responses
+ Features
+- Streamlit chat UI
+- Customer ID based chat session
+- Generates synthetic customer profile + order history (JSON)
+- Uses OpenAI model for responses
+- Easy to run locally
 
-### How to get Started?
+---
 
-1. Clone the GitHub repository
+ 🛠 Tech Stack
+- Python 3.12
+- Streamlit
+- OpenAI API
+
+---
+
+📦 Installation (Run Locally)
+
+ 1) Clone the repository
 ```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd advanced_ai_agents/single_agent_apps/ai_customer_support_agent
-```
-
-2. Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Ensure Qdrant is running:
-The app expects Qdrant to be running on localhost:6333. Adjust the configuration in the code if your setup is different.
-
-```bash
-docker pull qdrant/qdrant
-
-docker run -p 6333:6333 -p 6334:6334 \
-    -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
-    qdrant/qdrant
-```
-
-4. Run the Streamlit App
-```bash
-streamlit run customer_support_agent.py
-```
+git clone https://github.com/Snehaahaa/ai-customer-support-agent.git
+cd ai-customer-support-agent
