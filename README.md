@@ -9,7 +9,7 @@ It simulates customer support for an e-commerce electronics store (**TechGadgets
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 - Interactive **Streamlit Chat UI**
 - Customer ID based chat session
 - Generates synthetic customer profile + order history (JSON)
@@ -18,14 +18,14 @@ It simulates customer support for an e-commerce electronics store (**TechGadgets
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 - **Python 3.12**
 - **Streamlit**
 - **OpenAI Python SDK**
 
 ---
 
-## 📦 Setup & Run Locally
+# 📦 Setup & Run Locally
 
 ### 1) Clone this repository
 ```bash
