@@ -64,7 +64,7 @@ if openai_api_key:
 4. Customer's shipping address
 5. 2-3 previous orders from the past year
 6. 2-3 customer service interactions related to these orders
-7. Any preferences or patterns in their shopping behavior
+7. Any preferences in their shopping behavior
 
 Format the output as a JSON object."""
 
