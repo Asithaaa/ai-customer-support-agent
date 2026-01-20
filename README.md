@@ -89,7 +89,7 @@ You can view the original license here:
 
 ## 👩‍💻 Author
 
-**Sneha G**
+**Asitha R Prajith**
 
 ```
 
